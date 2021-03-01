@@ -1,0 +1,29 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabiAndradeD/API-REST-BP.git"
+  },
+  "author": "Gabriella Andrade Domingos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabiAndradeD/API-REST-BP/issues"
+  },
+  "homepage": "https://github.com/GabiAndradeD/API-REST-BP#readme",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.5.0",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
